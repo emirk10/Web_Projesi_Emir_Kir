@@ -49,6 +49,7 @@ body {
 .content {
     text-align: center;
     background-color: rgb(119, 200, 211);
+    height: 80vh;
 }
 
 
