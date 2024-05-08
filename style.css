@@ -1,7 +1,42 @@
+.content {
+    text-align: center;
+    background-color: rgb(153, 223, 233);
+    height: 70vh;
+}
+
+
+.content p {
+    margin-top: 50px;
+    font-size: 24px; 
+    font-family: Arial, sans-serif; 
+}
+
+.resimler-container {
+    margin-top: 100px; 
+    display: flex;
+    justify-content: center;
+    gap: 200px; 
+}
+
+.resimler-container img {
+    width: 500px; 
+    height: auto;
+}
+
+
+
+
+body {
+    background-color: rgb(112, 135, 199);
+}
+
 .arkaplan{
-    background-color: rgb(112, 199, 112);
+    background-color: rgb(112, 135, 199);
     padding-top: 20px; /* Üst boşluk */
     padding-bottom: 50px; /* Alt boşluk */
+    padding-left: 0px;
     margin-bottom: 0;
+
 }
+
 
