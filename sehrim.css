@@ -1,0 +1,68 @@
+.tumsayfa{
+    background-color: #e7f84b;
+    padding-bottom: 50px;
+}
+
+
+.sakaryanlat {
+    margin: 2rem 2rem;
+    background-color: bisque;
+    padding-bottom: 50px;
+
+   
+}
+
+
+
+
+    .sakaryanlat p {
+        text-align: center;
+        background-color: #199173;
+        font-size: 1.5rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    .sakaryanlat h2 {
+        color: #355C7D;
+        font-size: 50px;
+        margin-top: 3rem;
+        text-align: center;
+    }
+
+    .slide-container {
+        max-width: 800px;
+        position: relative;
+        margin: auto;
+        background-color: aqua;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .slide-container .text{
+        text-align: center;
+        background-color: rgb(124, 141, 173);
+        text-decoration: underline;
+    }
+
+    .slidebaslik {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+      }
+
+    img {
+        height: 100%;
+        width: 100%;
+        max-width: 1000px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        margin-top: 50px;
+       
+    }
