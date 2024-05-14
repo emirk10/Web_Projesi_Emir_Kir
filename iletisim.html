@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emir KIR</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="iletisim.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="background-color: #c879e7"
+    >
+      <div class="container" style="width: 100%">
+        <a class="navbar-brand" href="index.html">EMIR KIR</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="hakkinda.html">HAKKINDA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ozgecmis.html">ÖZGEÇMİŞ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sehrim.html">ŞEHRİM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ilgialanlari.html">İLGİ ALANLARIM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">LOGIN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="iletisim.html">ILETISIM</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="container">
+    <div class="tumsayfa">
+        
+      <form id="iletisim" name="iletisim" action="iletisim.php" onsubmit="return formKontrol()" method="post">
+        <h2>İletişim Sayfası</h2>
+        <div class="form-kontrol">
+          <p><strong>Adınızı giriniz:</strong></p>
+            <input placeholder="Adınız" type="text" id="ad" name="ad" autofocus>
+            <br><br>
+            <input placeholder="Soyadınız" type="text" name="soyad" id="soyad">
+        </div>
+        <div class="form-kontrol">
+            <p><strong>Cinsiyetiniz nedir?</strong></p>
+            <input type="radio" id="erkek" name="cinsiyet" value="Erkek">
+            <label for="erkek">Erkek</label><br>
+            <input type="radio" id="kadin" name="cinsiyet" value="Kadın">
+            <label for="kadın">Kadın</label><br>
+        </div>
+        <div class="form-kontrol">
+            <p><strong>Doğum tarihinizi giriniz:</strong></p>
+            <input type="date" name="dg" id="dg">
+        </div>
+       
+        <div class="form-kontrol">
+          <p><strong>Varsa konu ile ilgili belgenizi yükleyiniz:</strong></p>
+            
+            <input type="file" id="dosyam" name="dosyam">
+        </div>
+
+
+        <div class="form-kontrol">
+          <p><strong>En sevdiğiniz rengi giriniz:</strong></p>
+          <input type="color" name="renk" id="renk">
+      </div>
+        <div class="form-kontrol">
+          <p><strong>Yaşadığınız şehri giriniz:</strong></p>
+            <select name="sehir" id="sehir">
+                <option value="Sakarya">Sakarya</option>
+                <option value="İstanbul">İstanbul</option>
+                <option value="Ankara">Ankara</option>
+                <option value="Diğer">Diğer</option>
+              
+            </select>
+        </div>
+        <div class="form-kontrol">
+          <p><strong>Okuduğunuz Üniversiteyi giriniz:</strong></p>
+            <input placeholder="Üniversite seçiniz:" type="list" id="uni" name="uni"
+                list="universiteler">
+            <datalist id="universiteler">
+                <option value="SAÜ">
+                    Sakarya Üniversitesi
+                </option>
+                <option value="SUBÜ">
+                    Sakarya Uyg. Bil. Üniversitesi
+                </option>
+                <option value="Diğer">
+                    Diğer
+                </option>
+            </datalist>
+        </div>
+        
+        <div class="form-kontrol">
+          <p><strong>İletişim bilgilerinizi giriniz:</strong></p>
+          <label for="tel">Başında 0 olmadan 10 haneli telefon numaranızı giriniz</label>
+          <br>
+            <input type="text" id="tel" name="tel"
+                placeholder="Telefon Numarası">
+              <br><br>
+              <label for="tel">E-posta adresi içerisinde "@" işareti içermelidir.</label>
+              <br>
+            <input placeholder="E-Posta Adresiniz" type="text" name="email" id="email">
+        </div>
+        
+        <div class="form-kontrol">
+          <p><strong>Mesajınızı giriniz:</strong></p>
+            <textarea placeholder="Mesaj..." name="mesaj" id="mesaj"></textarea>
+        </div>
+        <div>
+          <div class="form-kontrol">
+            <div class="butonlar">
+            <button name="submitjs" type="submit" id="submit">JS İLE GÖNDER</button>
+            <button name="submitang" type="submit" id="submit">ANGULAR İLE GÖNDER</button>
+            <button name="reset" type="reset" id="reset">SIFIRLA</button>
+          </div>
+          </div>
+        </div>
+    </form>
+  </div>
+         </div> 
+        </div>
+
+    
+    
+    
+        <script src="iletisim.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

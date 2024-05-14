@@ -1,0 +1,60 @@
+body{
+    background-color: #e7f84b;
+}
+
+.tumsayfa {
+    background-color: #e7f84b;
+    padding-bottom: 50px;
+    text-align: center;
+    padding-top: 30px;
+    
+    
+}
+
+.tumsayfa h2{
+    
+    padding-left: 50px;
+    
+}
+
+
+.form-kontrol {
+    margin: 2rem 2rem;
+    background-color: bisque;
+    padding-bottom: 50px;
+    border-width:1px;
+    border-color:rgb(23, 0, 87);
+    border-style:dashed;
+    text-align: center ;
+    font-size: 15 px;
+    background-color: rgb(248, 193, 90);
+
+   
+}
+
+
+
+
+    .form-kontrol p {
+        text-align: center;
+        background-color: #199173;
+        font-size: 1.5rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    .form-kontrol h2 {
+        color: #163a5a;
+        font-size: 50px;
+        margin-top: 3rem;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .butonlar{
+        padding-top: 20px;
+    }
+
+ 
+
+   
